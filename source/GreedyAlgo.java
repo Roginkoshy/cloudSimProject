@@ -572,6 +572,7 @@ public class GreedyAlgo {
 
 		String indent = "    ";
 		Log.printLine();
+
 		Log.printLine("========== Time Type Job List ==========");
 		Log.printLine("Cloudlet ID" + indent + "STATUS" + indent + "Start Time" + indent + "Finish Time" + indent + "Expected Time" + indent + "Expected Bw"+ indent + "JEF Value" + indent + "priority");
 		int sumOfJefValues=0;
